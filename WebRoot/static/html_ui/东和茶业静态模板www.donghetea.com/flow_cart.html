@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+
+<title>购物流程_东和茶叶 大益行情最新报价</title>
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.superslide.2.1.1.js"></script>
+<script src="js/jiesuan.js"></script>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
+<style type="text/css">
+    .picScroll-left{
+        width:100%;
+        position:relative;
+        height: 80px;
+    }
+    .picScroll-left .hd{
+        width: 119%;
+        height: 30px;
+        position: absolute;
+        top:50%;
+        margin-left:-97px;
+        margin-top: -15px;
+    }
+    .picScroll-left .hd .prev{
+        width:13px;
+        height: 20px;
+        background: url(images/cart_left.png);
+        display: block;
+        float: left;
+        margin-left: 36px;
+        cursor: pointer;
+    }
+    .picScroll-left .hd .next{
+        width:13px;
+        height: 20px;
+        background: url(images/cart_right.png);
+        display: block;
+        float: right;
+        margin-right: 36px;
+        cursor: pointer;
+    }
+
+    .picScroll-left .bd ul{overflow:hidden; zoom:1;}
+    .picScroll-left .bd ul li{margin-right:30px; float:left; _display:inline; overflow:hidden; text-align:center;position: relative;}
+    .picScroll-left .bd ul li .del{
+        width: 57px;
+        height: 19px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: #f9f9f9;
+        cursor: pointer;
+    }
+
+    .picScroll-left .bd ul li img{width:80px; height:80px; display:block; border:1px solid #ccc;}
+</style>
+
+
+
+<script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/shopping_flow.js"></script></head>
+<body>
+<div class="tophead">
+   <div class="block topwraper">
+     <div class="welcome_word f_l" >您好，欢迎来到东和！</div>
+     <div class="f_r telphone">客服电话：<span>400-885-4448</span></div>
+      <div class="toplink f_r" >
+      <a href="flow.php">购物车</a> |
+               <a class="img" rel="nofollow" href="article.php?id=2" >帮助中心</a>
+      |
+     
+     </div> 
+     <div class="userinfos f_r" >  
+     <div class="toplink f_r" >  
+<a  class="log" rel="nofollow" href="user.php">登录</a> <a class="reg" rel="nofollow" href="user.php?act=register">注册</a>|
+</div>
+ 
+     </div>
+   </div>  
+</div>
+<div class="blank1"></div>
+<div class="header">
+  <div class="headwrap block">
+    <div class="logo f_l logo400"><h1><a href="index.php">东和茶叶官网 大益行情最新报价</a></h1></div>
+    <div class="searchbar f_l">
+      <div class="search_title">
+      <h2 data='36' class="snav1 cur">行情参考<span></span></h2>
+      <h2 data='33' class="snav4">超市零售<span></span></h2>
+      </div>
+      <div class="search">
+       <form name="searchForm" id="formsearchid" method="get" action="search.php" onSubmit="return checkSearchForm()">
+                <input type="hidden" value="" name="category" id="Category_Id">
+                <input name="keywords" type="text" id="keyword" value="" class="keyinput f_l"/>
+        <input type="submit" value="" class="go f_l"/>
+       </form>
+      </div>
+     <div class="keys" style="display:block;" >
+      <span>热门搜索：</span>
+              <a rel="nofollow" href="search.php?category=36&keywords=%E5%B1%B1%E9%9F%B5">山韵</a>
+              <a rel="nofollow" href="search.php?category=36&keywords=%E7%8F%8D%E8%97%8F%E5%AD%94%E9%9B%80">珍藏孔雀</a>
+              <a rel="nofollow" href="search.php?category=36&keywords=%E8%80%81%E6%A0%91%E5%9C%86%E8%8C%B6">老树圆茶</a>
+              <a rel="nofollow" href="search.php?category=36&keywords=%E5%87%B0%E5%90%8E">凰后</a>
+          </div>
+     <div class="keys" style="display:none;" >
+     <span> 热门搜索：</span>
+              <a rel="nofollow" href="supply.php?type=1&keywords="></a>
+          </div>
+     <div class="keys" style="display:none;" >
+      <span> 热门搜索：</span>
+              <a rel="nofollow" href="supply.php?type=2&keywords="></a>
+          </div>
+    <div class="keys none" style="display:none;">
+     <span> 热门搜索：</span>
+              <a rel="nofollow" href="search.php?category=33&keywords=%E7%8F%AD%E7%AB%A0">班章</a>
+              <a rel="nofollow" href="search.php?category=33&keywords=%E6%98%93%E6%AD%A6">易武</a>
+          </div>
+    
+    </div>
+    <div class="brocodes f_r"></div>
+  </div>
+</div>
+<div class="blank1"></div>
+<div class="mainNav_bg clearfix ">
+     <div class="block navbg">
+        <div class="mainNav">
+            <ul>
+            <li class="home1"><a href="index.php" class="cur">首页<span></span></a></li>
+                        <li class="nav1"><a href="category.php?id=36"  >行情参考</a></li>
+                        <li class="nav2"><a href="http://www.donghetea.com/category.php?id=88"  >品牌批发</a></li>
+                        <li class="nav3"><a href="category.php?id=33"  >超市零售</a></li>
+                        <li class="nav4"><a href="http://donghepuer.taobao.com/?v=1" target="_blank"  >东和淘宝</a></li>
+                        <li class="nav5"><a href="news.php"  >资讯频道</a></li>
+                        <li class="nav6"><a href="broker.php"  >经纪人</a></li>
+                        <li class="nav7"><a href="warehouse.php"  >东和茶仓</a></li>
+                        <li class="nav8"><a href="article.php?id=5"  >走进东和</a></li>
+                        </ul>
+          </div>
+      </div>
+</div>
+<div class="block930"  >
+          <div class="block clearfix" id="cart">
+        <div id="ur_here"><a href="">首页</a> <code>&gt;</code> 购物流程</div>
+                    <div style="font-size:16px;color:red;text-align:center;margin-top:20px;">购物车没有商品!</div>
+                </div>
+        <script src="js/dh-shopcart.js"></script>
+  
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+        
+                
+
+
+
+</div>
+
+<div class="blank15 clearfix"></div>
+<div class="footer clearfix">
+   <div class="help">
+      <div class="block clearfix">
+                          <div class="ihelptitbg">
+                   <div class="Contactus box_22 f_l">
+                     <p class="txt">客户服务热线<br/><span>CUSTOMER SERVICE HOTLINE</span></p>
+                     <p class="tel">400-885-4448</p>
+                     <p class="worktime">客服时间:10:00-18:00</p>
+                     </div>
+                                        <dl>
+                        <dt class="dt1 "><s></s>新手上路 </dt>
+                                                <dd><a rel="nofollow" href="article.php?id=11">订购方式</a></dd>
+                                                <dd><a rel="nofollow" href="article.php?id=136">售货方式</a></dd>
+                                            </dl>
+                                        <dl>
+                        <dt class="dt2 "><s></s>配送支持</dt>
+                                                <dd><a rel="nofollow" href="article.php?id=15">货到付款</a></dd>
+                                                <dd><a rel="nofollow" href="article.php?id=17">支付方式说明</a></dd>
+                                            </dl>
+                                        <dl>
+                        <dt class="dt3 "><s></s>服务保证 </dt>
+                                                <dd><a rel="nofollow" href="article.php?id=22">专业服务</a></dd>
+                                                <dd><a rel="nofollow" href="article.php?id=23">质量保证</a></dd>
+                                            </dl>
+                                        <dl class="last">
+                        <dt class="dt4 "><s></s>联系我们 </dt>
+                                                <dd><a rel="nofollow" href="article.php?id=24">网站故障</a></dd>
+                                                <dd><a rel="nofollow" href="article.php?id=26">投诉建议</a></dd>
+                                            </dl>
+                                     </div>
+                 
+                  </div> 
+    </div>
+    <div class="blank25"></div>
+            
+     <div class="blank1"></div>
+   
+</div>
+<div class="copyrightbg">
+   <div class="blank clearfix"></div>
+   <div class="copyright block">
+    © 2011-2013 广州市东和茶叶有限责任公司版权所有，并保留所有权利。所有整件商品报价仅供参考。网站评论纯属客人观点，与我们无关。<br/>
+广州市荔湾区芳村南方茶叶市场洞企石路9号60-62号 Tel: 020-81547283 81544307 400-885-4448<br/>   ICP备案证书号:<a href="http://www.beianbeian.com/" target="_blank">粤ICP备 11108410号-1</a>
+   &nbsp;&nbsp;<a href="#" target="_blank"  title="网页设计">网页设计</a>:<a href="http://dashennet.com" target="_blank"  title="广州网站建设">大神网络</a>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_3640313'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D3640313%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+  
+    </div>
+    <div class="blank15 clearfix"></div>
+</div>
+
+<div id="online_qq_layer">
+<div id="online_qq_tab">
+<a id="floatShow" style="display:none;" href="javascript:void(0);">收缩</a> 
+<a id="floatHide" style="display:block" href="javascript:void(0);">展开</a>
+</div>
+<div id="onlineService">
+<div class="online_top"></div>
+<div class="onlineMenu">
+    <div class="blank"></div>
+  <ul>
+  <div><a href='http://chat.53kf.com/company.php?arg=jingdushop&style=1'
+                target='_blank'><img src='images/1491681884679135482.gif' width='100' height='100'
+                border='0' /></a><div>
+   <div class="blank"></div>
+            
+     <li>广州小蔚 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2296207781&amp;site=qq&amp;menu=yes"><img border="0" src="images/081a2e2028924d68ab13701c2e013fc1.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小惠&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>深圳小罗 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=627165627&amp;site=qq&amp;menu=yes"><img border="0" src="images/22ed588cd9994879ad6d3bf79c92d7d7.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小罗&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州恩记 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2280104696&amp;site=qq&amp;menu=yes"><img border="0" src="images/f4a4cb56d1f14024914b33b65dac45d4.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小波&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州阿荣 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3057307899&amp;site=qq&amp;menu=yes"><img border="0" src="images/64d1d217e15f4904b90a98ecfc6cefcd.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:阿荣&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州小芊 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1275875271&amp;site=qq&amp;menu=yes"><img border="0" src="images/765d2b2acef34c2598198ba578f9b7f4.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小芊&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州小敏 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1023952528&amp;site=qq&amp;menu=yes"><img border="0" src="images/4f9d7a05000a48f6bd185c30cc21d35e.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小敏&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>东莞小婵 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=891883462&amp;site=qq&amp;menu=yes"><img border="0" src="images/11baf1cd7e28435daf4d05f843ceaf2e.gif" alt="<br />
+<b>Warning</b>:  urlencode() expects parameter 1 to be string, array given in <b>F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php</b> on line <b>109</b><br />
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&touid=普洱可讲价:小婵&siteid=cntaobao&status=1&charset=utf-8" target="_blank">
+<img border="0" alt="" src="images/online.aw" align="absmiddle">
+</a> </li>  
+               
+  </ul>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/jquery.lazyload.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {     
+     $("img").lazyload({
+      placeholder:"images/loading.gif",
+      effect : "fadeIn"    
+     });
+   });
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/dd_belatedpng_0.0.8a.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+</body>
+<script type="text/javascript">
+
+
+var process_request = "<div class=\"process_request\"><span>正在处理您的请求...</div>";
+var username_empty = "手机号码不能为空！";
+var real_name_empty = "请填写您的真实姓名！";
+var username_shorter = "手机号码填写错误！";
+var username_invalid = "账号只能是由字母数字以及下划线组成！";
+var password_empty = "密码不能为空！";
+var sex_empty = "请选择性别！";
+var password_shorter = "密码不能少于6个字符！";
+var password_longth = "密码不能多于20个字符！";
+var confirm_password_invalid = "两次输入密码不一致！";
+var rec_uset_invalid = "推荐人不能填写自己哦！";
+var email_empty = "Email为空！";
+var email_invalid = "Email不是合法的地址！";
+var agreement = "您没有接受协议！";
+var msn_invalid = "msn地址不是一个有效的邮件地址！";
+var qq_invalid = "QQ号码不是一个有效的号码！";
+var home_phone_invalid = "家庭电话不是一个有效号码！";
+var office_phone_invalid = "办公电话不是一个有效号码！";
+var mobile_phone_invalid = "不是一个有效号码！";
+var msg_un_blank = "账号不能为空！";
+var msg_un_length = "填写错误！";
+var msg_un_format = "账号含有非法字符！";
+var msg_un_registered = "账号已经存在,请重新输入！";
+var msg_can_rg = "可以注册";
+var msg_email_blank = "邮件地址不能为空！";
+var msg_email_registered = "邮箱已存在,请重新输入！";
+var msg_email_format = "邮件地址不合法！";
+var msg_blank = "不能为空！";
+var no_select_question = "您没有完成密码提示问题的操作！";
+var passwd_balnk = "密码中不能包含空格！";
+var country_not_null = "请您选择所在省份！";
+var province_not_null = "请您选择所在城市！";
+var city_not_null = "请您选择所在区域！";
+var district_not_null = "请您选择所在区域！";
+var broker_not_null = "请选择经纪人！";
+var code_not_null = "请填写验证码！";
+var username_exist = "登录账号 %s 已经存在";
+var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
+var btn_buy = "购买";
+var is_cancel = "取消";
+var select_spe = "请选择商品属性";
+</script>
+
+
+<script>
+  var box=$(".sub_price").offset().top-$(window).height()-$(".sub_price").height();
+  $(window).scroll(function(event) {
+    var winH=$(this).scrollTop()-$(".sub_price").height();
+    if(winH>box){
+      $(".sub_price").css("position","relative");
+    }else{
+      $(".sub_price").css({"position":"fixed","bottom":0,"width":1200,"margin":"122px auto 0"});
+    }
+  }).scroll();
+</script>
+
+
+</html>

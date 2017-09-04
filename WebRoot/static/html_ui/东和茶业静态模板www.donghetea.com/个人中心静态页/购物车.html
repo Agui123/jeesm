@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://www.donghetea.com/flow.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<title>购物流程_东和茶叶 大益行情最新报价</title>
+
+<link rel="shortcut icon" href="http://www.donghetea.com/favicon.ico">
+<link rel="icon" href="http://www.donghetea.com/animated_favicon.gif" type="image/gif">
+<script src="./购物车_files/jquery-1.8.3.min.js"></script>
+<script src="./购物车_files/jquery.SuperSlide.2.1.1.js"></script>
+<script src="./购物车_files/jiesuan.js"></script>
+
+<link rel="stylesheet" href="./购物车_files/style.css">
+<link rel="stylesheet" href="./购物车_files/main.css">
+<style type="text/css">
+    .picScroll-left{
+        width:100%;
+        position:relative;
+        height: 80px;
+    }
+    .picScroll-left .hd{
+        width: 119%;
+        height: 30px;
+        position: absolute;
+        top:50%;
+        margin-left:-97px;
+        margin-top: -15px;
+    }
+    .picScroll-left .hd .prev{
+        width:13px;
+        height: 20px;
+        background: url(themes/dhtea/images/cart_left.png);
+        display: block;
+        float: left;
+        margin-left: 36px;
+        cursor: pointer;
+    }
+    .picScroll-left .hd .next{
+        width:13px;
+        height: 20px;
+        background: url(themes/dhtea/images/cart_right.png);
+        display: block;
+        float: right;
+        margin-right: 36px;
+        cursor: pointer;
+    }
+
+    .picScroll-left .bd ul{overflow:hidden; zoom:1;}
+    .picScroll-left .bd ul li{margin-right:30px; float:left; _display:inline; overflow:hidden; text-align:center;position: relative;}
+    .picScroll-left .bd ul li .del{
+        width: 57px;
+        height: 19px;
+        display: inline-block;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: #f9f9f9;
+        cursor: pointer;
+    }
+
+    .picScroll-left .bd ul li img{width:80px; height:80px; display:block; border:1px solid #ccc;}
+</style>
+
+
+
+<script type="text/javascript" src="./购物车_files/common.js"></script><script type="text/javascript" src="./购物车_files/shopping_flow.js"></script></head>
+<body>
+<div class="tophead">
+   <div class="block topwraper">
+     <div class="welcome_word f_l">您好，欢迎来到东和！</div>
+     <div class="f_r telphone">客服电话：<span>400-885-4448</span></div>
+      <div class="toplink f_r">
+      <a href="http://www.donghetea.com/flow.php">购物车</a> |
+               <a class="img" rel="nofollow" href="http://www.donghetea.com/article.php?id=2">帮助中心</a>
+      |
+     
+     </div> 
+     <div class="userinfos f_r">  
+     <!-- 
+<div class="topnotice f_r">
+     <dl class="user_acount">
+     <dt><a rel="nofollow" href="user.php?act=system_message&type=1&re_status=0">0</a></dt>
+       <dd>
+         <p class="line"><a  href="user.php?act=system_message&type=1&re_status=0"><span><font class="f1">0</font>&nbsp;条</span>查看系统信息</a></p>
+         <p><a href="user.php?act=comment_reply&type=2"><span><font class="f1">0</font>&nbsp;条</span>查看回复</a></p>
+       </dd>
+     </dl>
+</div> -->
+ <div class="toplink f_r">  <!--<a rel="nofollow" href="user.php" class="f0"> 李成 </a>-->
+ 欢迎您，<a href="http://www.donghetea.com/chatong_user.php?act=my_profile">李成</a> |<a class="f0" rel="nofollow" href="http://www.donghetea.com/user.php?act=logout">退出</a></div>
+
+ 
+     </div>
+   </div>  
+</div>
+<div class="blank1"></div>
+<div class="header">
+  <div class="headwrap block">
+    <div class="logo f_l logo400"><h1><a href="http://www.donghetea.com/index.php">东和茶叶官网 大益行情最新报价</a></h1></div>
+    <div class="searchbar f_l">
+      <div class="search_title">
+      <h2 data="36" class="snav1 cur">行情参考<span></span></h2>
+      <h2 data="33" class="snav4">超市零售<span></span></h2>
+      </div>
+      <div class="search">
+       <form name="searchForm" id="formsearchid" method="get" action="http://www.donghetea.com/search.php" onsubmit="return checkSearchForm()">
+                <input type="hidden" value="" name="category" id="Category_Id">
+                <input name="keywords" type="text" id="keyword" value="" class="keyinput f_l">
+        <input type="submit" value="" class="go f_l">
+       </form>
+      </div>
+     <div class="keys" style="display:block;">
+      <span>热门搜索：</span>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=36&amp;keywords=%E5%B1%B1%E9%9F%B5">山韵</a>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=36&amp;keywords=%E7%8F%8D%E8%97%8F%E5%AD%94%E9%9B%80">珍藏孔雀</a>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=36&amp;keywords=%E8%80%81%E6%A0%91%E5%9C%86%E8%8C%B6">老树圆茶</a>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=36&amp;keywords=%E5%87%B0%E5%90%8E">凰后</a>
+          </div>
+     <div class="keys" style="display:none;">
+     <span> 热门搜索：</span>
+              <a rel="nofollow" href="http://www.donghetea.com/supply.php?type=1&amp;keywords="></a>
+          </div>
+     <div class="keys" style="display:none;">
+      <span> 热门搜索：</span>
+              <a rel="nofollow" href="http://www.donghetea.com/supply.php?type=2&amp;keywords="></a>
+          </div>
+    <div class="keys none" style="display:none;">
+     <span> 热门搜索：</span>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=33&amp;keywords=%E7%8F%AD%E7%AB%A0">班章</a>
+              <a rel="nofollow" href="http://www.donghetea.com/search.php?category=33&amp;keywords=%E6%98%93%E6%AD%A6">易武</a>
+          </div>
+    
+    </div>
+    <div class="brocodes f_r"></div>
+  </div>
+</div>
+<div class="blank1"></div>
+<div class="mainNav_bg clearfix ">
+     <div class="block navbg">
+        <div class="mainNav">
+            <ul>
+            <li class="home1"><a href="http://www.donghetea.com/index.php" class="cur">首页<span></span></a></li>
+                        <li class="nav1"><a href="http://www.donghetea.com/category.php?id=36">行情参考</a></li>
+                        <li class="nav2"><a href="http://www.donghetea.com/category.php?id=88">品牌批发</a></li>
+                        <li class="nav3"><a href="http://www.donghetea.com/category.php?id=33">超市零售</a></li>
+                        <li class="nav4"><a href="http://donghepuer.taobao.com/?v=1" target="_blank">东和淘宝</a></li>
+                        <li class="nav5"><a href="http://www.donghetea.com/news.php">资讯频道</a></li>
+                        <li class="nav6"><a href="http://www.donghetea.com/broker.php">经纪人</a></li>
+                        <li class="nav7"><a href="http://www.donghetea.com/warehouse.php">东和茶仓</a></li>
+                        <li class="nav8"><a href="http://www.donghetea.com/article.php?id=5">走进东和</a></li>
+                        </ul>
+          </div>
+      </div>
+</div>
+<div class="block930">
+          <div class="block clearfix" id="cart">
+        <div id="ur_here"><a href="http://www.donghetea.com/flow.php">首页</a> <code>&gt;</code> 购物流程</div>
+                        <div class="dh-t">
+                    <span><em class="f-k"></em><i>东和自营25</i></span>
+                </div>
+                <div class="cart-l-b cart-l-b-mt20">
+                    <div class="box-th">
+                        <div class="w612 f_l">
+                            <span class="w50"><input type="checkbox" class="all-check check" autocomplete="off"></span>
+                            <span class="w115">东和自营</span>
+                            <span>联系我</span>
+                        </div>
+                        <div class="w576 f_r">
+                        <span class="w134">单价（元)</span>
+                        <span class="w144">数量</span>
+                        <span class="w130">金额（元）</span>
+                        <span class="w124">操作</span>
+
+                        </div>
+                    </div>
+                    <div class="cart-cell-td">
+                        <ul>
+                                                         <li style="background-color: rgb(255, 253, 251);">
+                                <div class="w612 f_l">
+                                    <div class="p-checkbox">
+                                        <input type="checkbox" class="check-one check" autocomplete="off" value="788">
+                                    </div>
+                                    <div class="p-goods">
+                                        <div class="goods-item">
+                                            <div class="p-img"><a href="http://www.donghetea.com/goods.php?id=1756"><img src="./购物车_files/1756_thumb_G_1499564722962.jpg" width="80" height="80"></a></div>
+                                            <div class="p-msg"><a href="http://www.donghetea.com/goods.php?id=1756"><em>20008年 801 布朗孔雀</em></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="r-c-td w576 f_r">
+                                    <div class="p-price w134  f_l">1050.00</div>
+                                    <div class="p-quantity w144 f_l">
+
+                                        <a href="javascript:;" class="reduce">-</a>
+                                        <input type="text" class="count_input num" value="1" onkeyup="this.value=this.value.replace(/\D/g,&#39;&#39;)" autocomplete="off" disabled="">
+                                        <a href="javascript:;" class="add">+</a>
+                                        <input type="hidden" value="788" class="rec_id">
+
+                                    </div>
+                                    <div class="p-sum w130 f_l">1050.00</div>
+                                    <div class="p-ops w124 f_l">
+                                        <img src="./购物车_files/delete.png" title="删除" class="delete-img">
+                                        <input type="hidden" value="788" class="rec_id">
+                                    </div>
+                                </div>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+                
+                <div class="sub_price" style="position: relative;">
+                    <label class="select_all f_l"><input type="checkbox" class="for_all all-check check" autocomplete="off">&nbsp;&nbsp;全选</label>
+                    <a class="f_l delete" id="deleteAll" href="javascript:;">删除选中的商品</a>
+                    <a href="javascript:;" id="checkout" class="f_r closing">结算</a>
+                    <div class="f_r total">总价（不含运费）：<span class="symbol">￥</span><span id="priceTotal">1050.00</span></div>
+                    <div class="f_r selected" id="selected">已选择商品<span id="selectedTotal">1</span>件<span class="arrow">︽</span><!-- <span class="arrow down">︾</span> --></div>
+                    <div class="selected_view">
+                        <div class="picScroll-left">
+                            <div class="hd">
+                                <a class="next"></a>
+
+                                <a class="prev"></a>
+
+                            </div>
+                            <div class="bd">
+                                <ul class="picList" id="selectedViewList"><li><a href="javascript:;"><img src="./购物车_files/1756_thumb_G_1499564722962.jpg"></a></li></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        <script src="./购物车_files/dh-shopcart.js"></script>
+  
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+        
+                
+
+
+
+</div>
+
+<div class="blank15 clearfix"></div>
+<div class="footer clearfix">
+   <div class="help">
+      <div class="block clearfix">
+                          <div class="ihelptitbg">
+                   <div class="Contactus box_22 f_l">
+                     <p class="txt">客户服务热线<br><span>CUSTOMER SERVICE HOTLINE</span></p>
+                     <p class="tel">400-885-4448</p>
+                     <p class="worktime">客服时间:10:00-18:00</p>
+                     </div>
+                                        <dl>
+                        <dt class="dt1 "><s></s>新手上路 </dt>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=11">订购方式</a></dd>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=136">售货方式</a></dd>
+                                            </dl>
+                                        <dl>
+                        <dt class="dt2 "><s></s>配送支持</dt>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=15">货到付款</a></dd>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=17">支付方式说明</a></dd>
+                                            </dl>
+                                        <dl>
+                        <dt class="dt3 "><s></s>服务保证 </dt>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=22">专业服务</a></dd>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=23">质量保证</a></dd>
+                                            </dl>
+                                        <dl class="last">
+                        <dt class="dt4 "><s></s>联系我们 </dt>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=24">网站故障</a></dd>
+                                                <dd><a rel="nofollow" href="http://www.donghetea.com/article.php?id=26">投诉建议</a></dd>
+                                            </dl>
+                                     </div>
+                 
+                  </div> 
+    </div>
+    <div class="blank25"></div>
+            
+     <div class="blank1"></div>
+   
+</div>
+<div class="copyrightbg">
+   <div class="blank clearfix"></div>
+   <div class="copyright block">
+    © 2011-2013 广州市东和茶叶有限责任公司版权所有，并保留所有权利。所有整件商品报价仅供参考。网站评论纯属客人观点，与我们无关。<br>
+广州市荔湾区芳村南方茶叶市场洞企石路9号60-62号 Tel: 020-81547283 81544307 400-885-4448<br>   ICP备案证书号:<a href="http://www.beianbeian.com/" target="_blank">粤ICP备 11108410号-1</a>
+   &nbsp;&nbsp;<a href="http://www.donghetea.com/flow.php#" target="_blank" title="网页设计">网页设计</a>:<a href="http://dashennet.com/" target="_blank" title="广州网站建设">大神网络</a>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_3640313'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/stat.php%3Fid%3D3640313%26show%3Dpic2' type='text/javascript'%3E%3C/script%3E"));</script><span id="cnzz_stat_icon_3640313"><a href="http://www.cnzz.com/stat/website.php?web_id=3640313" target="_blank" title="站长统计"><img border="0" hspace="0" vspace="0" src="./购物车_files/pic2.gif"></a></span><script src="./购物车_files/stat.php" type="text/javascript"></script><script src="./购物车_files/core.php" charset="utf-8" type="text/javascript"></script>
+
+
+  
+    </div>
+    <div class="blank15 clearfix"></div>
+</div>
+
+<div id="online_qq_layer">
+<div id="online_qq_tab">
+<a id="floatShow" style="display:none;" href="javascript:void(0);">收缩</a> 
+<a id="floatHide" style="display:block" href="javascript:void(0);">展开</a>
+</div>
+<div id="onlineService">
+<div class="online_top"></div>
+<div class="onlineMenu">
+    <div class="blank"></div>
+  <ul>
+  <div><a href="http://chat.53kf.com/company.php?arg=jingdushop&amp;style=1" target="_blank"><img src="./购物车_files/1491681884679135482.gif" width="100" height="100" border="0"></a><div>
+   <div class="blank"></div>
+            
+     <li>广州小蔚 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2296207781&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E6%83%A0&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online.aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>深圳小罗 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=627165627&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(1)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E7%BD%97&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(1).aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州恩记 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2280104696&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(2)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E6%B3%A2&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(2).aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州阿荣 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=3057307899&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(3)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E9%98%BF%E8%8D%A3&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(3).aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州小芊 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1275875271&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(4)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E8%8A%8A&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(4).aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>广州小敏 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1023952528&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(5)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E6%95%8F&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(5).aw" align="absmiddle">
+</a> </li>  
+                    
+     <li>东莞小婵 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=891883462&amp;site=qq&amp;menu=yes"><img border="0" src="./购物车_files/pa(6)" alt="&lt;br /&gt;
+&lt;b&gt;Warning&lt;/b&gt;:  urlencode() expects parameter 1 to be string, array given in &lt;b&gt;F:\UPUPW_NP5.5-1511\UPUPW_NP5.5\vhosts\donghetea.com\temp\compiled\page_footer.lbi.php&lt;/b&gt; on line &lt;b&gt;109&lt;/b&gt;&lt;br /&gt;
+" align="absmiddle"></a> <a href="http://www.taobao.com/webww/ww.php?ver=3&amp;touid=%E6%99%AE%E6%B4%B1%E5%8F%AF%E8%AE%B2%E4%BB%B7:%E5%B0%8F%E5%A9%B5&amp;siteid=cntaobao&amp;status=1&amp;charset=utf-8" target="_blank">
+<img border="0" alt="" src="./购物车_files/online(6).aw" align="absmiddle">
+</a> </li>  
+               
+  </div></div></ul>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="./购物车_files/jquery.lazyload.min.js"></script>
+<script type="text/javascript" charset="utf-8">
+  $(function() {     
+     $("img").lazyload({
+      placeholder:"images/loading.gif",
+      effect : "fadeIn"    
+     });
+   });
+</script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="js/html5shiv.js"></script>
+<![endif]-->
+<!--[if lte IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('*');
+</script>
+<![endif]-->
+
+<script type="text/javascript">
+
+
+var process_request = "<div class=\"process_request\"><span>正在处理您的请求...</div>";
+var username_empty = "手机号码不能为空！";
+var real_name_empty = "请填写您的真实姓名！";
+var username_shorter = "手机号码填写错误！";
+var username_invalid = "账号只能是由字母数字以及下划线组成！";
+var password_empty = "密码不能为空！";
+var sex_empty = "请选择性别！";
+var password_shorter = "密码不能少于6个字符！";
+var password_longth = "密码不能多于20个字符！";
+var confirm_password_invalid = "两次输入密码不一致！";
+var rec_uset_invalid = "推荐人不能填写自己哦！";
+var email_empty = "Email为空！";
+var email_invalid = "Email不是合法的地址！";
+var agreement = "您没有接受协议！";
+var msn_invalid = "msn地址不是一个有效的邮件地址！";
+var qq_invalid = "QQ号码不是一个有效的号码！";
+var home_phone_invalid = "家庭电话不是一个有效号码！";
+var office_phone_invalid = "办公电话不是一个有效号码！";
+var mobile_phone_invalid = "不是一个有效号码！";
+var msg_un_blank = "账号不能为空！";
+var msg_un_length = "填写错误！";
+var msg_un_format = "账号含有非法字符！";
+var msg_un_registered = "账号已经存在,请重新输入！";
+var msg_can_rg = "可以注册";
+var msg_email_blank = "邮件地址不能为空！";
+var msg_email_registered = "邮箱已存在,请重新输入！";
+var msg_email_format = "邮件地址不合法！";
+var msg_blank = "不能为空！";
+var no_select_question = "您没有完成密码提示问题的操作！";
+var passwd_balnk = "密码中不能包含空格！";
+var country_not_null = "请您选择所在省份！";
+var province_not_null = "请您选择所在城市！";
+var city_not_null = "请您选择所在区域！";
+var district_not_null = "请您选择所在区域！";
+var broker_not_null = "请选择经纪人！";
+var code_not_null = "请填写验证码！";
+var username_exist = "登录账号 %s 已经存在";
+var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
+var btn_buy = "购买";
+var is_cancel = "取消";
+var select_spe = "请选择商品属性";
+</script>
+
+
+<script>
+  var box=$(".sub_price").offset().top-$(window).height()-$(".sub_price").height();
+  $(window).scroll(function(event) {
+    var winH=$(this).scrollTop()-$(".sub_price").height();
+    if(winH>box){
+      $(".sub_price").css("position","relative");
+    }else{
+      $(".sub_price").css({"position":"fixed","bottom":0,"width":1200,"margin":"122px auto 0"});
+    }
+  }).scroll();
+</script>
+
+
+
+</body></html>
